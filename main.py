@@ -31,6 +31,9 @@ class Topic ():
     def get_date_closed(self, radius):
         pass
 
+class Users ():
+    def __init__(self,)
+
 class Category(Topic):
     def __init__(self):
         Topic.__init__(self):
@@ -45,3 +48,4 @@ class Category(Saved):
     def __init__(self):
         Topic.__init__(self):
         pass
+
