@@ -1,0 +1,935 @@
+
+{
+	"action" : 
+	[
+		
+		{
+			"action_ext" : 
+			{
+				"Connected to internet" : "True"
+			},
+			"id" : "IsConnected",
+			"time" : "10/23/2018 13:49:33.827",
+			"type" : "InternetConnectivity"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Application name" : "C:\\Program Files\\Cadent\\RthViewerWeb\\Cadent.Shared.Util.RthViewerWeb.exe",
+				"ProcessInvoker function" : "OnAfterStartChildProcess"
+			},
+			"time" : "10/23/2018 13:49:34.555",
+			"type" : "ProcessInvoker"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Application name" : "c:/program files/cadent/CaseAdmin/CaseAdmin.exe",
+				"ProcessInvoker function" : "OnAfterStartChildProcess"
+			},
+			"time" : "10/23/2018 13:49:35.654",
+			"type" : "ProcessInvoker"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.iTeroDesktopApplication.Shell.ViewModels.ShellViewModel"
+			},
+			"id" : "Cadent.iTero.iTeroDesktopApplication.Shell.Views.ShellView",
+			"time" : "10/23/2018 13:49:36.321",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Dr. Rudnik, QAPerson - Dentist - Michael QA"
+			},
+			"id" : "System.Windows.Controls.ComboBox",
+			"name" : "UserName",
+			"parent_id" : "System.Windows.Controls.Canvas",
+			"time" : "10/23/2018 13:49:36.471",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:49:45.710",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:49:46.757",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "Orders",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:49:51.184",
+			"type" : "Click"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:49:51.368",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:49:52.727",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"RX ID" : "a2f6b866-556c-4c21-9fdf-a5c23fb73e8b",
+				"Table name" : "Orders upper panel"
+			},
+			"time" : "10/23/2018 13:49:54.994",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:, PatientName:R, Rrrrrrrr, ChartNumber:, ScanDate:, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:iRecord, Status:Rx Created, RxId:a2f6b866-556c-4c21-9fdf-a5c23fb73e8b, OrderCode:]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "UpperPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:49:54.996",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "ScanButton",
+			"parent_id" : "System.Windows.Controls.WrapPanel",
+			"time" : "10/23/2018 13:49:56.278",
+			"type" : "Click"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:49:56.293",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Application name" : "c:/program files/cadent/RTH/Cadent.iTero.UI.Application.exe",
+				"CmdLine Parameters" : " rth: -rxid=a2f6b866-556c-4c21-9fdf-a5c23fb73e8b -contactid=19883 -actual_logged_in_user_id=19883 -doctorid=19883 -was_sleeve_confirmed=False -general.open_screen=ScanScreen -languages.startup_language_code=en-US",
+				"ProcessInvoker function" : "OnAfterStartChildProcess"
+			},
+			"time" : "10/23/2018 13:49:56.416",
+			"type" : "ProcessInvoker"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:50:05.024",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "UpperPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:50:05.090",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "Orders",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:50:20.802",
+			"type" : "Click"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:50:20.999",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:50:22.369",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17510085",
+				"RX ID" : "0871fc37-d28f-49a2-957e-5ce63113c23a",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:50:43.677",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17510085, PatientName:Gv, Gbh, ChartNumber:, ScanDate:09/17/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:iRecord, Status:Completed, RxId:0871fc37-d28f-49a2-957e-5ce63113c23a, OrderCode:KYSPFH]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:50:43.677",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "InvisalignProgressAssessmentButton",
+			"parent_id" : "System.Windows.Controls.WrapPanel",
+			"time" : "10/23/2018 13:50:52.433",
+			"type" : "Click"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:50:52.433",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:50:52.496",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:50:58.143",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Application name" : "C:\\Program Files (x86)\\Align\\Invisalign Outcome Simulator\\Application\\bin\\OutcomeSimulator.exe",
+				"CmdLine Parameters" : " -full_file_path=*c:\\itero\\models\\9/00/85\\KYSPFH.3dm* -t=74-E3-6B-F6-F9-24-CE-10-0A-1C-9C-34-0A-1B-4B-99-E8-C6-DC-EA-63-EF-84-74-A8-A6-1F-C5-A0-96-78-16 -pid=5 -ptname=*Gv%2C+Gbh* -patient_id=c3e3cfa4-d266-4f2e-80cc-862df065c01b -pt_first_name=*Gbh* -pt_last_name=*Gv* -cid=19883 -cname=*Dr.+Rudnik%2C+QAPerson+-+Dentist+-+Michael+QA* -teeth_numbering=*universal* -lang=*en* -app_type=1 -utc_scan_date=20180917081850 -PT_mode=1 -LOB=1  -order_code=KYSPFH -top=76 -left=0 -right=1920 -bottom=1080",
+				"ProcessInvoker function" : "OnAfterStartChildProcess"
+			},
+			"time" : "10/23/2018 13:50:58.307",
+			"type" : "ProcessInvoker"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:09.366",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:10.755",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17510084",
+				"RX ID" : "05153f80-c493-454c-b368-8026adcfaead",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:51:13.310",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17510084, PatientName:5, Case, ChartNumber:, ScanDate:09/17/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:Chair Side Milling, Status:Completed, RxId:05153f80-c493-454c-b368-8026adcfaead, OrderCode:KYSPEK]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:13.311",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17509978",
+				"RX ID" : "4f5549e2-85fa-4616-9bd3-dfdb50f8fd70",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:51:16.165",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17509978, PatientName:Df, Cvgf, ChartNumber:, ScanDate:09/16/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:Chair Side Milling, Status:Completed, RxId:4f5549e2-85fa-4616-9bd3-dfdb50f8fd70, OrderCode:KYSK0V]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:16.166",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17509412",
+				"RX ID" : "4ac51e81-ae6a-4c0c-9174-8778b7c812c7",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:51:17.536",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17509412, PatientName:Jen22, Jen22, ChartNumber:, ScanDate:09/13/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:Invisalign, Status:Exporting to Doctor Site, RxId:4ac51e81-ae6a-4c0c-9174-8778b7c812c7, OrderCode:KYRZSZ]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:17.537",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "iosimButton",
+			"parent_id" : "System.Windows.Controls.WrapPanel",
+			"time" : "10/23/2018 13:51:22.842",
+			"type" : "Click"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:22.843",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:22.888",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:22.954",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Caption" : "Cannot Open Model",
+				"Caption Key" : "CANNOT_OPEN_MODEL",
+				"Message" : "The model was not found locally and your system may not be online currently.\nPlease verify your network connection and try again.",
+				"Message Key" : "THE_MODEL_WAS_NOT_FO",
+				"Message level" : "Information"
+			},
+			"id" : "MessageBox",
+			"time" : "10/23/2018 13:51:23.006",
+			"type" : "Message To User"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.ViewModels.MessageBoxViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.Views.MessageBoxView",
+			"time" : "10/23/2018 13:51:23.055",
+			"type" : "Loaded"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"parent_id" : "System.Windows.Controls.StackPanel",
+			"time" : "10/23/2018 13:51:26.989",
+			"type" : "Click"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.ViewModels.MessageBoxViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.Views.MessageBoxView",
+			"time" : "10/23/2018 13:51:26.991",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Message level" : "Information",
+				"Message result" : "OK"
+			},
+			"id" : "MessageBox",
+			"time" : "10/23/2018 13:51:27.037",
+			"type" : "Message Result"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:27.118",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:28.430",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17503818",
+				"RX ID" : "3133920c-0cfe-4de2-9834-80324e030b5d",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:51:31.074",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17503818, PatientName:Test, Sphere, ChartNumber:, ScanDate:08/30/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:Invisalign, Status:Exporting to Doctor Site, RxId:3133920c-0cfe-4de2-9834-80324e030b5d, OrderCode:KYJ59K]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:31.075",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Internet On" : "120"
+			},
+			"id" : "InternetConnection",
+			"time" : "10/23/2018 13:51:33.848",
+			"type" : "InternetConnectivity"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "InvisalignProgressAssessmentButton",
+			"parent_id" : "System.Windows.Controls.WrapPanel",
+			"time" : "10/23/2018 13:51:33.851",
+			"type" : "Click"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:33.852",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:33.904",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:38.984",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Application name" : "C:\\Program Files (x86)\\Align\\Invisalign Outcome Simulator\\Application\\bin\\OutcomeSimulator.exe",
+				"CmdLine Parameters" : " -full_file_path=*c:\\itero\\models\\9/38/18\\KYJ59K.3dm* -t=74-E3-6B-F6-F9-24-CE-10-0A-1C-9C-34-0A-1B-4B-99-E8-C6-DC-EA-63-EF-84-74-A8-A6-1F-C5-A0-96-78-16 -pid=5 -ptname=*Test%2C+Sphere* -patient_id=1c336777-cc30-42df-85b3-477ff2dacb1a -pt_first_name=*Sphere* -pt_last_name=*Test* -cid=19883 -cname=*Dr.+Rudnik%2C+QAPerson+-+Dentist+-+Michael+QA* -teeth_numbering=*universal* -lang=*en* -app_type=1 -utc_scan_date=20180830143831 -PT_mode=1 -LOB=1  -order_code=KYJ59K -top=76 -left=0 -right=1920 -bottom=1080",
+				"ProcessInvoker function" : "OnAfterStartChildProcess"
+			},
+			"time" : "10/23/2018 13:51:39.052",
+			"type" : "ProcessInvoker"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:52.589",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:53.941",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17503787",
+				"RX ID" : "1a4f65b6-1198-4080-a429-41c53526fffc",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:51:58.453",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17503787, PatientName:JenTest, JenTest, ChartNumber:, ScanDate:08/30/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:Invisalign, Status:Exporting to Doctor Site, RxId:1a4f65b6-1198-4080-a429-41c53526fffc, OrderCode:KYJ49R]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:58.454",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "InvisalignProgressAssessmentButton",
+			"parent_id" : "System.Windows.Controls.WrapPanel",
+			"time" : "10/23/2018 13:51:59.869",
+			"type" : "Click"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:51:59.870",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:59.910",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:51:59.962",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Caption" : "Cannot Open Model",
+				"Caption Key" : "CANNOT_OPEN_MODEL",
+				"Message" : "The model was not found locally and your system may not be online currently.\nPlease verify your network connection and try again.",
+				"Message Key" : "THE_MODEL_WAS_NOT_FO",
+				"Message level" : "Information"
+			},
+			"id" : "MessageBox",
+			"time" : "10/23/2018 13:52:00.006",
+			"type" : "Message To User"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.ViewModels.MessageBoxViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.Views.MessageBoxView",
+			"time" : "10/23/2018 13:52:00.041",
+			"type" : "Loaded"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"parent_id" : "System.Windows.Controls.StackPanel",
+			"time" : "10/23/2018 13:52:01.507",
+			"type" : "Click"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.ViewModels.MessageBoxViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.Views.MessageBoxView",
+			"time" : "10/23/2018 13:52:01.508",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Message level" : "Information",
+				"Message result" : "OK"
+			},
+			"id" : "MessageBox",
+			"time" : "10/23/2018 13:52:01.541",
+			"type" : "Message Result"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:52:01.608",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:52:03.011",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17503659",
+				"RX ID" : "3e53ba39-b676-4176-bf6e-f8cf0aed8c00",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:52:04.067",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17503659, PatientName:Test, DueDate2, ChartNumber:, ScanDate:08/20/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:Quadrant, Status:Lab Review, RxId:3e53ba39-b676-4176-bf6e-f8cf0aed8c00, OrderCode:KYJ05H]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:52:04.068",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Row selection",
+				"Order ID" : "17503787",
+				"RX ID" : "1a4f65b6-1198-4080-a429-41c53526fffc",
+				"Table name" : "Past Orders"
+			},
+			"time" : "10/23/2018 13:52:07.409",
+			"type" : "Tables action"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Selected item" : "Order[OrderId:17503787, PatientName:JenTest, JenTest, ChartNumber:, ScanDate:08/30/2018, Doctor:Dr. Rudnik, QAPerson - Dentist - Michael QA, CaseType:Invisalign, Status:Exporting to Doctor Site, RxId:1a4f65b6-1198-4080-a429-41c53526fffc, OrderCode:KYJ49R]"
+			},
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:52:07.410",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "InvisalignProgressAssessmentButton",
+			"parent_id" : "System.Windows.Controls.WrapPanel",
+			"time" : "10/23/2018 13:57:00.898",
+			"type" : "Click"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.DataGrid",
+			"name" : "LowerPanelDataGrid",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:57:00.898",
+			"type" : "SelectionChanged"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:57:00.945",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:57:01.003",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Caption" : "Cannot Open Model",
+				"Caption Key" : "CANNOT_OPEN_MODEL",
+				"Message" : "The model was not found locally and your system may not be online currently.\nPlease verify your network connection and try again.",
+				"Message Key" : "THE_MODEL_WAS_NOT_FO",
+				"Message level" : "Information"
+			},
+			"id" : "MessageBox",
+			"time" : "10/23/2018 13:57:01.040",
+			"type" : "Message To User"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.ViewModels.MessageBoxViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.Views.MessageBoxView",
+			"time" : "10/23/2018 13:57:01.067",
+			"type" : "Loaded"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"parent_id" : "System.Windows.Controls.StackPanel",
+			"time" : "10/23/2018 13:57:02.334",
+			"type" : "Click"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.ViewModels.MessageBoxViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Controls.WPFMessageBox.Views.MessageBoxView",
+			"time" : "10/23/2018 13:57:02.335",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Message level" : "Information",
+				"Message result" : "OK"
+			},
+			"id" : "MessageBox",
+			"time" : "10/23/2018 13:57:02.375",
+			"type" : "Message Result"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:57:02.440",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:57:04.040",
+			"type" : "Unloaded"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "Home",
+			"parent_id" : "System.Windows.Controls.StackPanel",
+			"time" : "10/23/2018 13:57:08.165",
+			"type" : "Click"
+		},
+		
+		{
+			"id" : "System.Windows.Controls.Button",
+			"name" : "ExitToWindows",
+			"parent_id" : "System.Windows.Controls.Grid",
+			"time" : "10/23/2018 13:57:09.753",
+			"type" : "Click"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"window" : "Cadent.iTero.UI.Shared.ViewModels.LoadingMessageViewModel"
+			},
+			"id" : "Cadent.iTero.UI.Shared.Views.LoadingMessageView",
+			"time" : "10/23/2018 13:57:09.773",
+			"type" : "Loaded"
+		},
+		
+		{
+			"action_ext" : 
+			{
+				"Action" : "Before exit from Element Flex"
+			},
+			"id" : "Exit from Element Flex",
+			"parent_id" : "iTero Desktop App",
+			"time" : "10/23/2018 13:57:09.805",
+			"type" : "Information"
+		}
+	],
+	"session" : 
+	{
+		"application_language" : "en-US",
+		"application_name" : "Cadent.iTero.iTeroDesktopApplication",
+		"application_version" : "1.8.0.198",
+		"baseboard_manufacturer" : "Dell Inc.",
+		"baseboard_product" : "0KP0FT",
+		"lcid" : 1033,
+		"mac_address" : "10:65:30:D3:45:00",
+		"machine_id" : "A9557094-D141-4229-9485-C107A3F94368",
+		"os_version" : "Microsoft Windows NT 6.2.9200.0",
+		"parent_session_id" : "00d2de64-e819-4df5-8fd2-907c2900af38",
+		"physical_memory_free" : 9398,
+		"physical_memory_total" : 16655208,
+		"processor_description" : "Intel64 Family 6 Model 142 Stepping 9",
+		"processor_name" : "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz",
+		"session_datetime" : "10/23/2018 13:49:33.827",
+		"system_manufacturer" : "Dell Inc.",
+		"system_model" : "Latitude 7490",
+		"user_name" : "iTero Element User",
+		"video_card_bits_per_pixel" : 32,
+		"video_card_driver_date" : "20170914000000.000000-000",
+		"video_card_horizontal_resolution" : 1920,
+		"video_card_name" : "Intel(R) HD Graphics 620",
+		"video_card_version" : "22.20.16.4799",
+		"video_card_vertical_resolution" : 1080
+	},
+	"session_ext" : 
+	{
+		"computer_name" : "WOA2018W13A004",
+		"doctor_id" : 0,
+		"is_online_mode" : true
+	},
+	"session_id" : "00d2de64-e819-4df5-8fd2-907c2900af38"
+}
